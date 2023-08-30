@@ -1,0 +1,336 @@
+@import url(fonts.css);
+*{
+    text-decoration: none !important;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none !important;
+}
+.wrapper{
+    background: white;
+    overflow: hidden;
+}
+.nav__list{
+    height: inherit;
+    align-items: center;
+}
+.wrapper__link{
+    padding: 8px 30px;
+}
+.nav-link{
+    padding: 8px 20px !important;
+    font-family: 'NB';
+    font-size: 14px;
+    line-height: 20px;
+    color: #156963 !important;  
+}
+.nav-info:hover{
+  background: #156963;  
+  color: white !important;
+}
+.nav-content{
+    position: sticky !important;
+    z-index: 10;
+    top: 40px;
+}
+.carousel-control-next, .carousel-control-prev {
+    position: sticky;
+    color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: all 0.6s;
+}
+.slider__btns{
+    display: flex;
+    min-width: 586px;
+    background: white;
+    height: 160px;
+    margin-top: 110px;
+}
+.header{
+    margin-top: -62px;
+    margin-bottom: 140px;
+}
+.header__content{
+    height: 100%;
+    justify-content: end;
+    padding-left: 50px;
+}
+.slayder__btn{
+    gap: 8px;
+    font-family: 'MM';
+    font-size: 24px;
+    line-height: normal;
+    color: #333;
+}
+.btn__info{
+    font-family: 'MM';
+    font-size:32px ;
+    line-height: normal;
+    color: #156963;
+}
+.carousel-control-next:hover, .carousel-control-prev:hover{
+    background: #156963;
+}
+.carousel-control-next:hover .slayder__btn,.carousel-control-prev:hover .slayder__btn{
+    color: #F2F2F2;
+}
+.carousel-control-next:hover .btn__info,.carousel-control-prev:hover .btn__info{
+    color: #F2F2F2;
+}
+.header__content-title{
+    font-family: 'MM';
+    font-size: 68px;
+    line-height: normal;
+    color: #156963;
+    max-width: 523px;
+    margin-bottom: 24px;
+}
+.header__content-desk{
+    max-width: 493px;
+    font-family: 'MR';
+    line-height: 32px ;
+    font-size: 18px;
+    color: #156963;
+}
+.blok{
+    border:1px solid #E0E0E0;
+    padding: 22px 16px;
+}
+.blok1__info{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.blok1-title{
+    max-width: 137px ;
+    font-family: 'MB';
+    font-size: 16px;
+    line-height: 24px;
+    color:  #156963;
+}
+.blok1-desk{
+    font-family: 'MR';
+    font-size: 10px;
+    line-height: 16px;
+    color: #2C1500;
+}
+.block1{
+    margin-bottom: 80px;
+}
+.top-title{
+    font-family: 'MS';
+    font-size: 20px;
+    line-height: normal;
+    color: black;
+}
+select{
+    padding: 8px 12px;
+    font-family: 'MS';
+    font-size: 12px;
+    line-height: normal;
+    color: black;
+    margin-bottom: 16px;
+}
+.plents__card{
+    gap: 20px;
+}
+.top-info{
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 24px;
+}
+.plents__cards{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.plant-img{
+    background: #F2F2F2;
+    max-width: 217px;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.flover-info{
+    max-width: 522px;
+    font-family: 'MB';
+    font-size: 40px;
+    line-height: 56px;
+    color: #2C1500;
+    margin-bottom: 16px;
+}
+.folover-desk{
+    max-width: 522px; 
+    font-family: 'MR';
+    font-size: 16px;
+    line-height:28px ;
+    color: #2C1500;
+    margin-bottom: 23px;
+}
+.flover-img{
+    background:  lightgray
+}
+.plend-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-title{
+    font-family: 'MR';
+    line-height: normal;
+    font-size: 16px;
+    color: #000;
+}
+.plant-spam{
+    font-family: 'MS';
+    font-size: 16px;
+    line-height: normal;
+    color: #000;
+}
+.blok3-title{
+    max-width: 522px;
+    font-family:'MB' ;
+    font-size : 40px;
+    line-height: 56px;
+    color: #2C1500;
+    margin-bottom: 16px;
+}
+.blok3-desk{
+    max-width: 506px;
+    font-family: 'MR';
+    font-size: 16px;
+    line-height: 28px;
+    color: #2C1500;
+}
+.blok3{
+    margin-bottom: 88px;
+}
+.blok3-img{
+    max-width: 570px;
+    width: 100%;
+}
+.blok3-rait{
+    max-width: 513px;
+    width: 100%;
+}
+.blok3-content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+.blok4{
+    height: 360px;
+    margin-bottom: 80px;
+}
+.flover__content{
+    background: #F9FAFB;
+    align-items: center;
+}
+.hlover-title{
+    font-family: 'MB';
+    max-width: 585px;
+    line-height: 56px;
+    font-size: 40px;
+    color: #2C1500;
+    margin-bottom: 32px;
+}
+.flower__btn{
+    padding: 10px 20px;
+    background: #156963;
+    font-family: 'NBO';
+    font-size: 14px;
+    line-height: 20px;
+    color: #FAFEFE;
+}
+.flower__btn:hover{
+   color: #F9FAFB; 
+}
+.flover-img{
+    max-width: 402px;
+    width: 100%;
+}
+.footer{
+    padding: 60px 0 70px;
+}
+.footerlink{
+    font-family: 'WR';
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
+    margin: 0 !important;
+    padding: !important;
+}
+.footer-list ul{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.marb{
+    margin-bottom: 14px;
+}
+.form-content{
+    width: 234px;
+}
+.footer-btn{
+    padding:4px 12px ;
+    border-radius: 2px;
+    background: ;
+}
+.footer-input{
+    border: none;
+    outline: none;
+    margin-bottom: 14px;
+    font-family: 'WR';
+    font-size: 12px;
+    line-height: 16px;
+    color: #000;
+    padding: 8px 87px 8px 13px;
+}
+.footer-infi-title{
+    font-family: 'PM';
+    font-size: 24px;
+    line-height: 24px;
+    color: #156963;
+    letter-spacing: 1.2px;
+text-transform: uppercase;
+margin-bottom: 24px;
+}
+.footer-list-title{
+    font-family: 'WM';
+    font-size: 16px;
+    line-height: 16px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.footer-info-span{
+    display: inline-block;
+    width: 282px;
+    font-family: 'WR';
+    font-size: 13px;
+    line-height: 20px;
+    color: #4F4F4F;
+}
+.footer-info-desk{
+    font-family: 'WM';
+    font-size: 16px;
+    line-height: normal;
+    color: #333;
+    margin-bottom: 10px;
+}
+.line{
+    height: 1px;
+    background: #156963;
+    opacity: 0.3;
+}
+.footer-btn{
+    background:#156963;
+    width: 51px;
+    font-family: 'RM';
+    font-size: 8px;
+    color: white;
+    text-transform: capitalize;
+}
+
+    
